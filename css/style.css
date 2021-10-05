@@ -58,9 +58,33 @@ img .logo {
 
 .task{
     list-style-type: none;
-    line-height: 40px;;
+    line-height: 35px;
 }
 
 .task.category{
-    margin-top: 20px;
+    margin-top: 15px;
+    font-weight: 900;
 }
+
+.flag{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50% ;
+    border: 1px solid;
+    line-height: 20px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.flag.green{
+    color: green;
+    border-color: green; 
+}
+
+.flag.red{
+    color: red;
+    border-color:red; 
+}
+
