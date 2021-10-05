@@ -21,7 +21,7 @@ header{
 .container{
     width: 70%;
     margin: auto;
-    padding: 2% 5%;
+    padding: 3% 3% 2% 5%;
     background-color: white;
 }
 
@@ -56,6 +56,11 @@ img .logo {
     border: 1px solid grey;    
 }
 
-.task-category{
+.task{
     list-style-type: none;
+    line-height: 40px;;
+}
+
+.task.category{
+    margin-top: 20px;
 }
