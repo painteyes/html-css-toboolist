@@ -40,9 +40,7 @@ img .logo {
     font-weight: 30px;
 }
 
-.button {
-
-    
+.button {    
     padding: 5px 10px;
     border-radius: 10%;
 }
@@ -54,7 +52,10 @@ img .logo {
 }
 
 .button.add-section{
-    color: lightgrey;
-    border: 1px solid lightgrey;
-    
+    color: grey;
+    border: 1px solid grey;    
+}
+
+.task-category{
+    list-style-type: none;
 }
